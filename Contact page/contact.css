@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    list-style: none;
+    position: absolute;
+    right: 0px;
+}
+.header{
+    color:red;
+    font-weight: bold;
+    font-size: 20px;
+    /* float: inline-start; */
+    margin-top: 25px;
+    margin-left:10px ;
+    margin-bottom: 25px;
+}
+.header:hover{
+    color: black;
+}
+.more{
+    float:right;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+    margin-right: 15px;
+    text-shadow: 2px 3px 5px grey;
+    color: white;
+    border: 3px black solid;
+    padding: 3px 7px;
+}
+.more:hover{
+    font-size: 24px;
+    color: black;
+    text-shadow: 3px 2px 5px black;
+    border: 3px solid white;
+}
+.banner{
+    width: 100%;
+    height: 80vh;
+}
+.info{
+    padding:20px 100px 10px 20px ;
+}
+button{
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    background-color:turquoise;
+    border-radius: 12px 0px 12px 0px;
+    padding: 3px 10px;
+    transition: 300ms ease-in-out;
+    box-shadow: 3px 3px 6px black;
+}
+button:hover{
+    border-radius: 0px 12px 0px 12px;
+}
